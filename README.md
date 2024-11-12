@@ -1,12 +1,12 @@
 # Neural-Mechanism-of-Attentional-Blink
 
-## Abstract
-
-The human brain has inherent limitations in consciously processing visual information. When individuals monitor a rapid sequence of images for detecting two targets, they often miss the second target (T2) if it appears within a short time frame of 200-500ms after the first target (T1), a phenomenon known as the attentional blink (AB). The neural mechanism behind the attentional blink (AB) remains unclear, largely due to the use of simplistic visual items such as letters and digits in conventional AB experiments, which differ significantly from naturalistic vision. This study employs advanced multivariate pattern analysis (MVPA) of human EEG data (including 17 females and 18 males) to explore the neural representations associated with target processing within a naturalistic paradigm under conditions where AB does or does not occur. Our MVPA analysis successfully decoded the identity of target images from EEG data. Moreover, in the AB condition, characterized by a limited time between targets, T1 processing coincided with T2 processing, resulting in the suppression of late representational markers of both T1 and T2. Conversely, in the condition with longer inter-target interval, neural representations endured for a longer duration. These findings suggest that the attentional blink can be attributed to the suppression of neural representations in the later stages of target processing.
-
 ## Study Title
 
 Multivariate Pattern Analysis of EEG Reveals Neural Mechanism of Naturalistic Target Processing in Attentional Blink.
+
+## Abstract
+
+The human brain has inherent limitations in consciously processing visual information. When individuals monitor a rapid sequence of images for detecting two targets, they often miss the second target (T2) if it appears within a short time frame of 200-500ms after the first target (T1), a phenomenon known as the attentional blink (AB). The neural mechanism behind the attentional blink (AB) remains unclear, largely due to the use of simplistic visual items such as letters and digits in conventional AB experiments, which differ significantly from naturalistic vision. This study employs advanced multivariate pattern analysis (MVPA) of human EEG data (including 17 females and 18 males) to explore the neural representations associated with target processing within a naturalistic paradigm under conditions where AB does or does not occur. Our MVPA analysis successfully decoded the identity of target images from EEG data. Moreover, in the AB condition, characterized by a limited time between targets, T1 processing coincided with T2 processing, resulting in the suppression of late representational markers of both T1 and T2. Conversely, in the condition with longer inter-target interval, neural representations endured for a longer duration. These findings suggest that the attentional blink can be attributed to the suppression of neural representations in the later stages of target processing.
 
 ## Description
 
