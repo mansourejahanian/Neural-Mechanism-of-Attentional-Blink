@@ -60,6 +60,9 @@ for correct versus incorrect T2 responses in the lag 3 condition, and plot the r
 Correct_vs_incorrect/functions/:
 This folder contains the required functions for decoding analysis for correct versus incorrect responses.
 
+## Data
+Data and stimuli can be found at https://osf.io/9syzf/
+
 ## Authors
 
 Data collection conducted by Mansoure Jahanian \
