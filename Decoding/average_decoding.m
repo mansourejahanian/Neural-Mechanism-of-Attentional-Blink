@@ -489,62 +489,6 @@ pbaspect([3.4 1 1])
 
 hold off
 
-%% plot difference
-
-% figure
-% subplot(2,1,1)
-% hold on
-% plot(time,mean_decoding_T1lag7-mean_decoding_T1lag3, Color=blue1,LineWidth=5)
-% 
-% % plot T1 onset
-% xline(0,LineStyle='--',LineWidth=2,color=blue1)
-% % chance level
-% yline(0,LineStyle="--",LineWidth=2,color='black')
-% 
-% %significancy
-% %scatter(time(SigTime_T1), 3, [], [178 24 43]./256, 'filled');
-% %scatter(time(SigTime_T2), 3, [], [178 24 43]./256, 'filled', 'MarkerFaceAlpha', 0.3);
-% 
-% ax = gca;
-% ax.FontSize = 20;
-% ax.LineWidth = 2;
-% ax.FontName = 'arial';
-% 
-% xlim([-200 1000])
-% ylim([-3 3])
-% title('T1')
-% xlabel('Time (ms)')
-% ylabel('Decoding accuracy (%)')
-% legend('lag3','lag7','T1 onset', Location='bestoutside',box='off')
-% pbaspect([3.4 1 1])
-% 
-% 
-% % plot target 2
-% 
-% %figure
-% subplot(2,1,2)
-% hold on
-% plot(time,mean_decoding_T2lag7-mean_decoding_T2lag3, Color=red1,LineWidth=5)
-% 
-% % plot T1 onset
-% xline(0,LineStyle='--',LineWidth=2,color=red1)
-% % chance level
-% yline(0,LineStyle="--",LineWidth=2,color='black')
-% 
-% ax = gca;
-% ax.FontSize = 20;
-% ax.LineWidth = 2;
-% ax.FontName = 'arial';
-% 
-% xlim([-200 1000])
-% ylim([-3 3])
-% %title(sprintf('Avg over %d Participants, T2' , nsubject))
-% title('T2')
-% xlabel('Time (ms)')
-% ylabel('Decoding accuracy (%)')
-% legend('lag3','lag7','T2 onset', Location='bestoutside',box='off')
-% pbaspect([3.4 1 1])
-
 
 %% plot both lags and both targets on one figure
 
