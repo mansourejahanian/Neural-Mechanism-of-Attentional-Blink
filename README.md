@@ -65,7 +65,7 @@ Data and stimuli can be found at https://osf.io/9syzf/
 
 ## Authors
 
-Data collection conducted by Mansoure Jahanian \
+Mansoure Jahanian \
 Western Institute for Neuroscience, Western University, London, Canada \
 email: mjahani@uwo.ca
 
