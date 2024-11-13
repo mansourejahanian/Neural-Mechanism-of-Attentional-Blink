@@ -1,5 +1,5 @@
 
-% This script calculate the accuracy of reporting targets
+% This script calculates the accuracy of reporting targets
 
 close all;
 clear all;
@@ -257,43 +257,4 @@ for i = 1:p.ntarget
 ax(i) = axes('Position',[0.11+0.049*(i-1) 0.02 0.08 0.08]); % desired position og images
 imshow(im{i});
 end
-
-%% calculating reaction time
-
-% reaction time without NAN
-
-% reaction_time_Q1 = zeros(1,p.nsubjects);
-% reaction_time_Q2 = zeros(1,p.nsubjects);
-% 
-% for j = 1:p.nsubjects
-%     for i=1:p.nrun
-%         a = not(isnan(result{j}.respTime_Q1{i}));
-%         Q1(i) = mean(result{j}.respTime_Q1{i}(find(a)));
-%         a = not(isnan(result{j}.respTime_Q2{i}));
-%         Q2(i) = mean(result{j}.respTime_Q2{i}(find(a)));
-%     end
-%     reaction_time_Q1(j)=mean(Q1);
-%     reaction_time_Q2(j)=mean(Q2);
-% end
-% 
-% % reaction time with NAN = 1.3 (Max time = 1.2 s)
-% 
-% reaction_time_Q1 = zeros(1,p.nsubjects);
-% reaction_time_Q2 = zeros(1,p.nsubjects);
-% 
-% for j = 1:p.nsubjects
-%     for i=1:p.nrun
-%         a = result{j}.respTime_Q1{i};
-%         b = find(isnan(a));
-%         a(b)=1.3;
-%         Q1(i) = mean(a);
-% 
-%         a = result{j}.respTime_Q2{i};
-%         b = find(isnan(a));
-%         a(b)=1.3;
-%         Q2(i) = mean(a);
-%     end
-%     reaction_time_Q1(j)=mean(Q1);
-%     reaction_time_Q2(j)=mean(Q2);
-% end
 
